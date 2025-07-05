@@ -428,21 +428,26 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" data-aos="fade-left">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" placeholder="Your Phone">
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-button">Send Message</button>
-                </form>
+                <form action="https://formsubmit.co/samrose1010@gmail.com" method="POST" class="contact-form" data-aos="fade-left">
+    <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+        <input type="tel" name="phone" placeholder="Your Phone">
+    </div>
+    <div class="form-group">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+    </div>
+
+    <!-- Optional: Disable captcha or redirect to thank you page -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://sajeetha2005.github.io/construction/thankyou.html">
+
+    <button type="submit" class="submit-button">Send Message</button>
+</form>
             </div>
         </div>
     </section>
